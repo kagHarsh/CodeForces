@@ -7,8 +7,8 @@ int main()
 {
     int input;
     cin >> input;
-    int x = 0;
     string s;
+    int x = 0;
     while (input--)
     {
         cin >> s;
