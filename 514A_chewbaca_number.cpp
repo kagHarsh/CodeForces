@@ -1,11 +1,13 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
     long long int x;
     cin>>x;
-    long long int ans = 0;
+  
     long long int cnt = 1;
+    long long int ans = 0;
     while (x > 0) {
         int n = x%10;
         x = x/10;
